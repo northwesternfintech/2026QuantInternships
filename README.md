@@ -61,7 +61,7 @@ QT = Quantitative Trading
 | [PDT Partners](https://pdtpartners.com/careers)| NYC|||||Founded by Pete Muller, very collaborative and secretive culture similar to Rentech. Recruits college students for mainly SWE but some SWE/QR combo roles (dependent on team). Exclusively recruits PhD students for full-time QR roles.|
 | [Peak6](https://peak6.com/careers/?l=&q=intern#jointheparty)| Chicago||||| The internships are geared towards women. The new grad roles are open to everyone.|
 | [QuantLab](https://www.quantlab.com/careers)| Houston|||||
-| [Radix Trading](https://radixtrading.co/)| Chicago|||||Founded by ex-Citadel people. Radix calls SWEs Quantitative Technologists. Extremely secretive.|
+| [Radix Trading](https://radixtrading.co/)| Chicago|[✅](https://job-boards.greenhouse.io/radixuniversity/jobs/7842108002)||||Founded by ex-Citadel people. Radix calls SWEs Quantitative Technologists. Extremely secretive.|
 | Renaissance| Setauket- East Setauket ||||| The legendary OG quant fund. They interview some normal people for SWE, but other roles tend to be extremely difficult.|
 | [Schonfeld](https://www.schonfeld.com/careers/)|Miami||||||
 | [Seven Eight](https://www.seveneightcapital.com/join-us)| NYC||||||
