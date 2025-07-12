@@ -65,7 +65,7 @@ QT = Quantitative Trading
 | Renaissance| Setauket- East Setauket ||||| The legendary OG quant fund. They interview some normal people for SWE, but other roles tend to be extremely difficult.|
 | [Schonfeld](https://www.schonfeld.com/careers/)|Miami||||||
 | [Seven Eight](https://www.seveneightcapital.com/join-us)| NYC||||||
-| [SIG](https://careers.sig.com/intern-openings)|Bala Cynwyd||[✅](https://careers.sig.com/job/9306/Quantitative-Research-Internship-Master-s-Summer-2026)|[✅](https://careers.sig.com/job/9377/Quantitative-Trader-Internship-Summer-2026)|| Has a huge poker culture. Fairly chill culture but pay tends to be on the lower side, especially for SWEs. Considered one of the best or the best firms for traders to start their career.|
+| [SIG](https://careers.sig.com/intern-openings)|Bala Cynwyd|[✅](https://careers.sig.com/job/9571/Software-Engineering-Internship-Summer-2026)|[✅](https://careers.sig.com/job/9306/Quantitative-Research-Internship-Master-s-Summer-2026)|[✅](https://careers.sig.com/job/9377/Quantitative-Trader-Internship-Summer-2026)|| Has a huge poker culture. Fairly chill culture but pay tends to be on the lower side, especially for SWEs. Considered one of the best or the best firms for traders to start their career.|
 | [Squarepoint](https://www.squarepoint-capital.com/careers)| NYC||||||
 | [TGS](https://www.tgsmc.com/join-our-team/)|Irvine|||||Perception ranges anywhere from JS to RenTech tier. Extremely secretive - not much else is known.|
 | [Tower Research](https://www.tower-research.com/open-positions)| NYC||[✅](https://tower-research.com/open-positions/?gh_jid=6626259)||| Super clustered into teams - traders tend to be all in one trader-researchers, while devs focus on the platform and general technology.|
