@@ -75,7 +75,7 @@ QT = Quantitative Trading
 | [Two Sigma](https://careers.twosigma.com/careers/OpenRoles/?5086=%5B16718737,16718736%5D&5086_format=3149&listFilterMode=1&jobRecordsPerPage=10&)| NYC||[✅](https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship-2026-Summer/13257)||| Founded by ex-DE-Shaw people. Collaborative and chill culture. The org is mostly composed of QRs and SWEs.|
 | [Valkyrie Trading](https://www.valkyrietrading.com/careers/)|Chicago||||||
 | [Vatic Labs](http://www.vaticinvestments.com/careers/)| NYC||||| Founded by ex-Jump people. Focus on ML.|
-| [Virtu Financial](https://www.virtu.com/careers/)|NYC, Austin|||||Known for being very HFT MM heavy.|
+| [Virtu Financial](https://www.virtu.com/careers/)|NYC, Austin|[✅](https://job-boards.greenhouse.io/virtu/jobs/7848570002)||[✅](https://job-boards.greenhouse.io/virtu/jobs/7848562002)||Known for being very HFT MM heavy.|
 | [Voleon](https://voleon.com/jobs/)|Berkeley||||| Specializes in Machine Learning and recruits college students for SWE roles but primarily recruits PhD students for research roles.|
 | [Voloridge](https://www.voloridge.com/join-our-team)| Jupiter, Florida|[✅](https://voloridge-investment-management.hiringthing.com/job/889648/research-software-engineer-intern-2026)|[✅](https://voloridge-investment-management.hiringthing.com/job/889639/quantitative-research-intern-2026)||||
 | [Wolverine](https://www.wolve.com/open-positions#lever-jobs-container)|Chicago|||||Generally a floor trader style firm.|
