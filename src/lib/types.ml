@@ -1,25 +1,26 @@
 type url = string
 
 type link =
-  | Checkbox of { url : string }
-  | AnnotatedCheckbox of
-      { label : string
-      ; url : string
-      }
+  { label : string option
+  ; url : string
+  }
+[@@deriving yaml]
 
 type role =
   { role_type : string
   ; links : link list
   }
+[@@deriving yaml]
 
 module Company = struct
   type t =
     { name : string
     ; website : string
     ; locations : string
-    ; roles : role list
     ; notes : string
+    ; roles : role list
     }
+  [@@deriving yaml]
 
   let create
         (name : string)
@@ -31,10 +32,23 @@ module Company = struct
     =
     { name; website; locations; roles; notes }
   ;;
+
+  let create_from_yaml (body : Yaml.value Yaml.res) : t option =
+    match body with
+    | Ok yaml ->
+      (match of_yaml yaml with
+       | Ok company -> Some company
+       | Error (`Msg msg) ->
+         prerr_endline ("YAML parse failed: " ^ msg);
+         None)
+    | Error (`Msg msg) ->
+      prerr_endline ("YAML parse failed: " ^ msg);
+      None
+  ;;
 end
 
 let create_link ?label (url : string) : link =
   match label with
-  | Some l -> AnnotatedCheckbox { label = l; url }
-  | None -> Checkbox { url }
+  | Some l -> { label = Some l; url }
+  | None -> { label = None; url }
 ;;

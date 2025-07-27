@@ -25,9 +25,12 @@ module T = struct
     let separator = "&nbsp;&nbsp;&nbsp;&nbsp;" in
     links
     |> List.map (fun link ->
-      match link with
-      | Checkbox c -> make_url c.url "✅"
-      | AnnotatedCheckbox c -> make_url c.url ("✅ " ^ c.label))
+      let label =
+        match link.label with
+        | Some s -> s
+        | None -> ""
+      in
+      make_url link.url ("✅ " ^ label))
     |> String.concat separator
   ;;
 

@@ -4,15 +4,14 @@ let contribution_section () =
   {|
 ## Using This Repository
 
-This repository is auto-updated by a GitHub action. The data are stored in OCaml structs in the `./src/lib/data.ml` file. They are compiled into Markdown by the Markdown_writer module, in which the output format can be changed (if needed). The data structure should be fairly intuitive. Follow the samples. On creating a new PR, a GitHub action will automatically update your branch's README.md file.
+This repository is auto-updated by a GitHub action. The data are stored in the `./data` directory. Please see the `README.md` in there for instructions on how to maintain the YAML files. The data are parsed via OCaml, and then into Markdown. The output format is customisable in the Markdown_writer module. On creating a PR, a GitHub bot will update the README automatically.
 
 |}
 ;;
 
 let introduction_blurb () =
   Printf.sprintf
-    {|
-%s
+    {|%s
 
 Feel free to submit a new job posting or suggest a change by submitting a pull request 🙏
 

@@ -2,180 +2,6 @@ open Types
 
 let all_roles =
   [ Company.create
-      "Akuna Capital"
-      "https://akunacapital.com/careers#careers"
-      "Chicago"
-      ""
-      [ { role_type = "SWE"
-        ; links =
-            [ create_link
-                ~label:"C++"
-                "https://akunacapital.com/job-details?gh_jid=6996427"
-            ; create_link
-                ~label:"Python"
-                "https://akunacapital.com/job-details?gh_jid=7055471"
-            ]
-        }
-      ; { role_type = "QR"
-        ; links = [ create_link "https://akunacapital.com/job-details?gh_jid=7055793" ]
-        }
-      ]
-  ; Company.create
-      "Ansatz Capital"
-      "https://jobs.lever.co/ansatzcapital"
-      "NYC"
-      "Very Small, Citadel Spinoff."
-      []
-  ; Company.create
-      "Aquatic"
-      "https://boards.greenhouse.io/aquaticcapitalmanagement"
-      "Chicago"
-      "Very Small, Citadel Spinoff."
-      [ { role_type = "SWE"
-        ; links =
-            [ create_link
-                "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7990895002"
-            ]
-        }
-      ; { role_type = "QR"
-        ; links =
-            [ create_link
-                "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7985726002"
-            ]
-        }
-      ; { role_type = "BizOps (AI/LLM)"
-        ; links =
-            [ create_link
-                "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8071545002"
-            ]
-        }
-      ]
-  ; Company.create
-      "AQR"
-      "https://careers.aqr.com/jobs/department/university-jobs"
-      "Greenwich, CT"
-      ""
-      []
-  ; Company.create
-      "Arrowstreet Capital"
-      "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Arrowstreet"
-      "Boston"
-      "Fully Systematic. Very High PnL per head."
-      []
-  ; Company.create
-      "Belvedere Trading"
-      "http://www.belvederetrading.com/jobs/"
-      "Chicago"
-      ""
-      []
-  ; Company.create
-      "Blackedge Capital"
-      "https://boards.greenhouse.io/blackedgecapital"
-      "Chicago"
-      ""
-      []
-  ; Company.create
-      "Bridgewater"
-      "https://www.bridgewater.com/working-at-bridgewater/job-openings"
-      "Westport, CT"
-      "Ray Dalio's firm. Very unique culture and interviews. Very School Selective."
-      [ { role_type = "SWE"
-        ; links =
-            [ create_link "https://job-boards.greenhouse.io/bridgewater89/jobs/7950099002"
-            ]
-        }
-      ; { role_type = "QR"
-        ; links =
-            [ create_link "https://job-boards.greenhouse.io/bridgewater89/jobs/7726966002"
-            ]
-        }
-      ]
-  ; Company.create
-      "Campbell and Company"
-      "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2de708e1-c847-43b1-bf0d-0bad30aca014&ccId=19000101_000001&type=MP&lang=en_US"
-      "Baltimore, MD"
-      "This small 60 employee multi-strat quant firm has an extremely collaborative \
-       culture."
-      []
-  ; Company.create
-      "Citadel"
-      "https://www.citadel.com/careers/open-opportunities/students/internships/"
-      "Chicago, NYC"
-      "The hedge fund side of Ken Griffin's Citadel. The quants are mostly on the Global \
-       Quantitative Strategies team (GQS). Citadel tends to be fairly school-selective."
-      []
-  ; Company.create
-      "Citadel Securities"
-      "https://www.citadelsecurities.com/careers/students/internships/"
-      "Chicago, NYC"
-      "The market making arm of Citadel. The general perception is that the culture \
-       tends to be better at Citadel Securities vs Citadel LLC."
-      []
-  ; Company.create
-      "Chicago Trading Company"
-      "https://www.chicagotrading.com/search#search-results"
-      "Chicago"
-      "Very trader led shop. Shares an office with Group One Trading."
-      []
-  ; Company.create
-      "Cubist"
-      "https://careers.point72.com/?experience=internships"
-      "New York City"
-      "The quant arm of Steve Cohen's Point72 hedge fund. Pretty small and school \
-       selective."
-      [ { role_type = "SWE"
-        ; links =
-            [ create_link
-                "https://careers.point72.com/CSJobDetail?jobName=quantitative-software-developer-intern&jobCode=CSS-0011537&location=New%20York&locale=English&retURL=/CSCareerSearch"
-            ]
-        }
-      ]
-  ; Company.create
-      "DE Shaw"
-      "https://www.deshaw.com/careers/internships"
-      "NYC"
-      "Tends to be extremely school-selective, mostly recruiting from ivy leagues and \
-       similar. Generally considered a top destination for QRs, more so than other \
-       roles."
-      [ { role_type = "SWE"
-        ; links =
-            [ create_link
-                "https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2026-5521"
-            ]
-        }
-      ; { role_type = "QT"
-        ; links =
-            [ create_link
-                "https://www.deshaw.com/careers/proprietary-trading-intern-new-york-summer-2026-5379"
-            ]
-        }
-      ]
-  ; Company.create
-      "DRW"
-      "https://drw.com/work-at-drw/category/campus/"
-      "Chicago"
-      "Perception is that DRWers tend to have a good WLB but teams are usually siloed. \
-       Known for their PM type culture and relatively fluid roles."
-      [ { role_type = "SWE"
-        ; links =
-            [ create_link
-                "https://www.drw.com/work-at-drw/listings/software-developer-intern-3157977"
-            ]
-        }
-      ; { role_type = "QR"
-        ; links =
-            [ create_link
-                "https://www.drw.com/work-at-drw/listings/quantitative-research-intern-3151348"
-            ]
-        }
-      ; { role_type = "QT"
-        ; links =
-            [ create_link
-                "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3141981"
-            ]
-        }
-      ]
-  ; Company.create
       "Five Rings"
       "https://fiverings.com/careers"
       "NYC"
@@ -295,7 +121,9 @@ let all_roles =
         }
       ; { role_type = "Hardware"
         ; links =
-            [ create_link ~label:"FPGA" "https://www.janestreet.com/join-jane-street/position/8062455002/"
+            [ create_link
+                ~label:"FPGA"
+                "https://www.janestreet.com/join-jane-street/position/8062455002/"
             ]
         }
       ]
@@ -424,8 +252,12 @@ let all_roles =
        traders to start their career."
       [ { role_type = "SWE"
         ; links =
-            [ create_link ~label:"SWE" "https://careers.sig.com/job/9571/Software-Engineering-Internship-Summer-2026"
-            ; create_link ~label:"Quant Strategy Dev" "https://careers.sig.com/job/9532/Quantitative-Strategy-Developer-Internship-Summer-2026"
+            [ create_link
+                ~label:"SWE"
+                "https://careers.sig.com/job/9571/Software-Engineering-Internship-Summer-2026"
+            ; create_link
+                ~label:"Quant Strategy Dev"
+                "https://careers.sig.com/job/9532/Quantitative-Strategy-Developer-Internship-Summer-2026"
             ]
         }
       ; { role_type = "QR"
