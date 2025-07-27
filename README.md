@@ -1,8 +1,8 @@
 # Summer 2026 Quant Internships
 
-Feel free to submit a new job posting or suggest a change by submitting a pull request 🙏 <br />
+Feel free to submit a new job posting or suggest a change by submitting a pull request 🙏
 
-**(Format forked from QuantStart. Updated and Maintained by the Northwestern Fintech Club.)**  <br />
+**Updated and Maintained by the Northwestern Fintech Club.**
 
 Are you a firm looking to reach quant interns? Let us know at nuft@u.northwestern.edu and we will take care of adding your positions. 
 
@@ -22,10 +22,23 @@ HW = Hardware/FPGA Engineering
 
 ------
 
+## Table of Contents
+- [Akuna Capital](#akuna-capital)
+
+## Akuna Capital
+[Website](https://akunacapital.com/careers#careers)
+
+Location: Chicago
+
+Notes: None
+
+- [✅ SWE C++](https://akunacapital.com/job-details?gh_jid=6996427)
+- [✅ SWE Python](https://akunacapital.com/job-details?gh_jid=7055471)
+
 
 | Company| Location|SWE|QR|QT|HW|Status| Notes|
 |-------------------------|-------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Akuna Capital](https://akunacapital.com/careers#careers)|Chicago|[✅ C++](https://akunacapital.com/job-details?gh_jid=6996427)  [✅ Py](https://akunacapital.com/job-details?gh_jid=7055471)|[✅](https://akunacapital.com/job-details?gh_jid=7055793)|||||
+| [Akuna Capital](https://akunacapital.com/careers#careers)|Chicago|[✅ C++]()  [✅ Py]()|[✅](https://akunacapital.com/job-details?gh_jid=7055793)|||||
 | [Ansatz Capital](https://jobs.lever.co/ansatzcapital)|NYC||||||Very Small, Citadel Spinoff.|
 | [Aquatic](https://boards.greenhouse.io/aquaticcapitalmanagement)|Chicago|[✅](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7990895002)|[✅](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7985726002)||||Very Small, Citadel Spinoff.|
 | [AQR](https://careers.aqr.com/jobs/department/university-jobs#/)|Greenwich|||||||
