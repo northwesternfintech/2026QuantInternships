@@ -25,6 +25,7 @@ HW = Hardware/FPGA Engineering
 ## Table of Contents
 - [Akuna Capital](#akuna-capital)
 
+
 ## Akuna Capital
 [Website](https://akunacapital.com/careers#careers)
 

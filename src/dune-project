@@ -19,7 +19,7 @@
  (name internships)
  (synopsis "Automation scripts to transform YAML files containing internship links into Markdown tables")
  (description "idk i did this for fun")
- (depends dune ocaml ocamlformat)
+ (depends dune ocaml ocamlformat yaml ppx_deriving_yaml)
  (tags
   ("markdown" "yaml" your project)))
 
