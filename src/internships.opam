@@ -5,7 +5,7 @@ synopsis:
 description: "idk i did this for fun"
 maintainer: ["Andrew Li <andrewli@u.northwestern.edu>"]
 authors: ["Andrew Li <andrewli@u.northwestern.edu>"]
-license: "MTI"
+license: "MIT"
 tags: ["markdown" "yaml" "your" "project"]
 homepage: "https://github.com/northwesternfintech/2026QuantInternships"
 doc: "https://example.com"
@@ -14,6 +14,7 @@ bug-reports:
 depends: [
   "dune" {>= "3.18"}
   "ocaml"
+  "ocamlformat"
   "odoc" {with-doc}
 ]
 build: [
