@@ -11,7 +11,7 @@
 
 (maintainers "Andrew Li <andrewli@u.northwestern.edu>")
 
-(license MTI)
+(license MIT)
 
 (documentation https://example.com)
 
@@ -19,7 +19,7 @@
  (name internships)
  (synopsis "Automation scripts to transform YAML files containing internship links into Markdown tables")
  (description "idk i did this for fun")
- (depends ocaml)
+ (depends dune ocaml ocamlformat)
  (tags
   ("markdown" "yaml" your project)))
 

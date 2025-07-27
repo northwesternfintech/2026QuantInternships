@@ -5,46 +5,11 @@ on:
     branches:
       - "*"
 
-permissions:
-  contents: read
-
 jobs:
-  setup:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Set up OCaml
-        uses: ocaml/setup-ocaml@v3
-        with:
-          ocaml-compiler: 5.1.0
-          cache-prefix: v1
-          dune-cache: true
-
-  lint:
-    needs: setup
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Set up OCaml
-        uses: ocaml/setup-ocaml@v3
-        with:
-          ocaml-compiler: 5.1.0
-          cache-prefix: v1
-          dune-cache: true
-      
-      - name: Install dependencies
-        working-directory: ./src
-        run: opam install . --deps-only
-
-      - name: Lint code
-        working-directory: ./src
-        run: eval $(opam env) && dune fmt
-  
   compile:
-    needs: lint
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
 
@@ -54,26 +19,24 @@ jobs:
           ocaml-compiler: 5.1.0
           cache-prefix: v1
           dune-cache: true
-      
-      - name: Install dependencies
-        working-directory: ./src
-        run: opam install . --deps-only
 
       - name: Generate the output file
         working-directory: ./src
-        run: dune exec internships > ../README.md
+        run: eval $(opam env) && dune exec internships > ../README.md
         
       - name: Commit and push changes to git
-        env:
-          TOKEN: ${{ secrets.PAT_PUSH_TOKEN }}
         run: |
+          git fetch
+          git checkout ${{ github.head_ref }}
+          git pull
           git add -f README.md
+
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
+
             git commit -m "[bot] auto-update README.md"
-            git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
-            git push
+            git push origin HEAD:${{ github.head_ref }}
           fi
