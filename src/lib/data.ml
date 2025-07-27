@@ -43,6 +43,12 @@ let all_roles =
                 "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7985726002"
             ]
         }
+      ; { role_type = "BizOps (AI/LLM)"
+        ; links =
+            [ create_link
+                "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8071545002"
+            ]
+        }
       ]
   ; Company.create
       "AQR"
@@ -287,6 +293,11 @@ let all_roles =
                 "https://www.janestreet.com/join-jane-street/position/8047137002/"
             ]
         }
+      ; { role_type = "Hardware"
+        ; links =
+            [ create_link ~label:"FPGA" "https://www.janestreet.com/join-jane-street/position/8062455002/"
+            ]
+        }
       ]
   ; Company.create
       "Jump Trading"
@@ -356,6 +367,16 @@ let all_roles =
                 "https://optiver.com/working-at-optiver/career-opportunities/7832160002/"
             ]
         }
+      ; { role_type = "Hardware"
+        ; links =
+            [ create_link
+                ~label:"Chicago"
+                "https://optiver.com/working-at-optiver/career-opportunities/8033372002/"
+            ; create_link
+                ~label:"Austin"
+                "https://optiver.com/working-at-optiver/career-opportunities/8033390002/"
+            ]
+        }
       ]
   ; Company.create
       "PDT Partners"
@@ -403,8 +424,8 @@ let all_roles =
        traders to start their career."
       [ { role_type = "SWE"
         ; links =
-            [ create_link
-                "https://careers.sig.com/job/9571/Software-Engineering-Internship-Summer-2026"
+            [ create_link ~label:"SWE" "https://careers.sig.com/job/9571/Software-Engineering-Internship-Summer-2026"
+            ; create_link ~label:"Quant Strategy Dev" "https://careers.sig.com/job/9532/Quantitative-Strategy-Developer-Internship-Summer-2026"
             ]
         }
       ; { role_type = "QR"
