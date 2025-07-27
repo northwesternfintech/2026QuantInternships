@@ -16,7 +16,7 @@ let introduction_blurb () =
 
 Feel free to submit a new job posting or suggest a change by submitting a pull request 🙏
 
-Are you a firm looking to reach quant interns? Let us know at <a href=\"mailto:nuft@u.northwestern.edu\">nuft@u.northwestern.edu</a> and we will take care of adding your positions.
+Are you a firm looking to reach quant interns? Let us know at [nuft@u.northwestern.edu](mailto:nuft@u.northwestern.edu) and we will take care of adding your positions.
 
 %s
 |}
