@@ -4,7 +4,9 @@ let contribution_section () =
   {|
 ## Using This Repository
 
-This repository is auto-updated by a GitHub action. The data are stored in the `./data` directory. Please see the `README.md` in there for instructions on how to maintain the YAML files. The data are parsed via OCaml, and then into Markdown. The output format is customisable in the Markdown_writer module. On creating a PR, a GitHub bot will update the README automatically.
+**This repository is auto-updated by a GitHub action. Please do not manually change this file.**
+
+All data are stored in the `./data` directory. Please see the `README.md` in there for instructions on how to maintain the YAML files. The data are parsed via OCaml, and then into Markdown. The output format is customisable in the Markdown_writer module. On creating a PR, a GitHub bot will update the README automatically.
 
 |}
 ;;
