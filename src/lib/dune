@@ -1,4 +1,5 @@
 (library
  (preprocess
   (pps ppx_deriving_yaml))
- (name internships))
+ (name internships)
+ (libraries yaml))

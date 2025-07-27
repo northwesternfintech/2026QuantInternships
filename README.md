@@ -1,4 +1,3 @@
-
 # Summer 2026 Quant Internships
 
 Feel free to submit a new job posting or suggest a change by submitting a pull request 🙏
@@ -10,6 +9,7 @@ Are you a firm looking to reach quant interns? Let us know at [nuft@u.northweste
 
 This repository is auto-updated by a GitHub action. The data are stored in the `./data` directory. Please see the `README.md` in there for instructions on how to maintain the YAML files. The data are parsed via OCaml, and then into Markdown. The output format is customisable in the Markdown_writer module. On creating a PR, a GitHub bot will update the README automatically.
 
+
 ## Akuna Capital
 **Website**: [Akuna Capital](https://akunacapital.com/careers#careers)
 
@@ -20,7 +20,7 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 |Role|Links|
 |-------|-------|
 |SWE|[✅ C++](https://akunacapital.com/job-details?gh_jid=6996427)&nbsp;&nbsp;&nbsp;&nbsp;[✅ Python](https://akunacapital.com/job-details?gh_jid=7055471)|
-|QR|[✅](https://akunacapital.com/job-details?gh_jid=7055793)|
+|QR|[✅ ](https://akunacapital.com/job-details?gh_jid=7055793)|
 
 
 ## Ansatz Capital
@@ -29,6 +29,18 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 **Locations**: NYC
 
 **Notes**: Very Small, Citadel Spinoff.
+
+|Role|Links|
+|-------|-------|
+
+
+
+## AQR
+**Website**: [AQR](https://careers.aqr.com/jobs/department/university-jobs)
+
+**Locations**: Greenwich, CT
+
+**Notes**: 
 
 |Role|Links|
 |-------|-------|
@@ -44,21 +56,9 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7990895002)|
-|QR|[✅](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7985726002)|
-|BizOps (AI/LLM)|[✅](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8071545002)|
-
-
-## AQR
-**Website**: [AQR](https://careers.aqr.com/jobs/department/university-jobs)
-
-**Locations**: Greenwich, CT
-
-**Notes**: 
-
-|Role|Links|
-|-------|-------|
-
+|SWE|[✅ ](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7990895002)|
+|QR|[✅ ](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7985726002)|
+|BizOps (AI/LLM)|[✅ ](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8071545002)|
 
 
 ## Arrowstreet Capital
@@ -106,8 +106,8 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://job-boards.greenhouse.io/bridgewater89/jobs/7950099002)|
-|QR|[✅](https://job-boards.greenhouse.io/bridgewater89/jobs/7726966002)|
+|SWE|[✅ ](https://job-boards.greenhouse.io/bridgewater89/jobs/7950099002)|
+|QR|[✅ ](https://job-boards.greenhouse.io/bridgewater89/jobs/7726966002)|
 
 
 ## Campbell and Company
@@ -116,30 +116,6 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 **Locations**: Baltimore, MD
 
 **Notes**: This small 60 employee multi-strat quant firm has an extremely collaborative culture.
-
-|Role|Links|
-|-------|-------|
-
-
-
-## Citadel
-**Website**: [Citadel](https://www.citadel.com/careers/open-opportunities/students/internships/)
-
-**Locations**: Chicago, NYC
-
-**Notes**: The hedge fund side of Ken Griffin's Citadel. The quants are mostly on the Global Quantitative Strategies team (GQS). Citadel tends to be fairly school-selective.
-
-|Role|Links|
-|-------|-------|
-
-
-
-## Citadel Securities
-**Website**: [Citadel Securities](https://www.citadelsecurities.com/careers/students/internships/)
-
-**Locations**: Chicago, NYC
-
-**Notes**: The market making arm of Citadel. The general perception is that the culture tends to be better at Citadel Securities vs Citadel LLC.
 
 |Role|Links|
 |-------|-------|
@@ -158,6 +134,30 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 
 
+## Citadel Securities
+**Website**: [Citadel Securities](https://www.citadelsecurities.com/careers/students/internships/)
+
+**Locations**: Chicago, NYC
+
+**Notes**: The market making arm of Citadel. The general perception is that the culture tends to be better at Citadel Securities vs Citadel LLC.
+
+|Role|Links|
+|-------|-------|
+
+
+
+## Citadel
+**Website**: [Citadel](https://www.citadel.com/careers/open-opportunities/students/internships/)
+
+**Locations**: Chicago, NYC
+
+**Notes**: The hedge fund side of Ken Griffin's Citadel. The quants are mostly on the Global Quantitative Strategies team (GQS). Citadel tends to be fairly school-selective.
+
+|Role|Links|
+|-------|-------|
+
+
+
 ## Cubist
 **Website**: [Cubist](https://careers.point72.com/?experience=internships)
 
@@ -167,7 +167,7 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://careers.point72.com/CSJobDetail?jobName=quantitative-software-developer-intern&jobCode=CSS-0011537&location=New%20York&locale=English&retURL=/CSCareerSearch)|
+|SWE|[✅ ](https://careers.point72.com/CSJobDetail?jobName=quantitative-software-developer-intern&jobCode=CSS-0011537&location=New%20York&locale=English&retURL=/CSCareerSearch)|
 
 
 ## DE Shaw
@@ -179,12 +179,12 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2026-5521)|
-|QT|[✅](https://www.deshaw.com/careers/proprietary-trading-intern-new-york-summer-2026-5379)|
+|SWE|[✅ ](https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2026-5521)|
+|QT|[✅ ](https://www.deshaw.com/careers/proprietary-trading-intern-new-york-summer-2026-5379)|
 
 
 ## DRW
-**Website**: [DRW](https://drw.com/work-at-drw/category/campus/)
+**Website**: [DRW](https://drw.com/work-at-drw/category/campus)
 
 **Locations**: Chicago
 
@@ -192,9 +192,9 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://www.drw.com/work-at-drw/listings/software-developer-intern-3157977)|
-|QR|[✅](https://www.drw.com/work-at-drw/listings/quantitative-research-intern-3151348)|
-|QT|[✅](https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3141981)|
+|SWE|[✅ ](https://www.drw.com/work-at-drw/listings/software-developer-intern-3157977)|
+|QR|[✅ ](https://www.drw.com/work-at-drw/listings/quantitative-research-intern-3151348)|
+|QT|[✅ ](https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3141981)|
 
 
 ## Five Rings
@@ -206,9 +206,9 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://job-boards.greenhouse.io/fiveringsllc/jobs/4806713008)|
-|QR|[✅](https://job-boards.greenhouse.io/fiveringsllc/jobs/4563183008)|
-|QT|[✅](https://job-boards.greenhouse.io/fiveringsllc/jobs/4613451008)|
+|SWE|[✅ ](https://job-boards.greenhouse.io/fiveringsllc/jobs/4806713008)|
+|QR|[✅ ](https://job-boards.greenhouse.io/fiveringsllc/jobs/4563183008)|
+|QT|[✅ ](https://job-boards.greenhouse.io/fiveringsllc/jobs/4613451008)|
 
 
 ## Flow Traders
@@ -244,7 +244,7 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|QT|[✅](https://job-boards.greenhouse.io/genevatrading/jobs/4767553007)|
+|QT|[✅ ](https://job-boards.greenhouse.io/genevatrading/jobs/4767553007)|
 
 
 ## GSA Capital
@@ -304,9 +304,9 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://www.imc.com/us/careers/jobs/4580810101/)|
-|QR|[✅](https://www.imc.com/us/careers/jobs/4580808101/)|
-|QT|[✅](https://www.imc.com/us/careers/jobs/4580757101/)|
+|SWE|[✅ ](https://www.imc.com/us/careers/jobs/4580810101/)|
+|QR|[✅ ](https://www.imc.com/us/careers/jobs/4580808101/)|
+|QT|[✅ ](https://www.imc.com/us/careers/jobs/4580757101/)|
 
 
 ## Jane Street
@@ -318,9 +318,9 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://www.janestreet.com/join-jane-street/position/8040547002/)|
-|QR|[✅](https://www.janestreet.com/join-jane-street/position/7979031002/)|
-|QT|[✅](https://www.janestreet.com/join-jane-street/position/8047137002/)|
+|SWE|[✅ ](https://www.janestreet.com/join-jane-street/position/8040547002/)|
+|QR|[✅ ](https://www.janestreet.com/join-jane-street/position/7979031002/)|
+|QT|[✅ ](https://www.janestreet.com/join-jane-street/position/8047137002/)|
 |Hardware|[✅ FPGA](https://www.janestreet.com/join-jane-street/position/8062455002/)|
 
 
@@ -456,13 +456,13 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://job-boards.greenhouse.io/radixuniversity/jobs/7842108002)|
+|SWE|[✅ ](https://job-boards.greenhouse.io/radixuniversity/jobs/7842108002)|
 
 
 ## Renaissance
 **Website**: [Renaissance]()
 
-**Locations**: Setauket- East Setauket
+**Locations**: Setauket - East Setauket
 
 **Notes**: The legendary OG quant fund. They interview some normal people for SWE, but other roles tend to be extremely difficult.
 
@@ -505,8 +505,8 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 |Role|Links|
 |-------|-------|
 |SWE|[✅ SWE](https://careers.sig.com/job/9571/Software-Engineering-Internship-Summer-2026)&nbsp;&nbsp;&nbsp;&nbsp;[✅ Quant Strategy Dev](https://careers.sig.com/job/9532/Quantitative-Strategy-Developer-Internship-Summer-2026)|
-|QR|[✅](https://careers.sig.com/job/9306/Quantitative-Research-Internship-Master-s-Summer-2026)|
-|QT|[✅](https://careers.sig.com/job/9377/Quantitative-Trader-Internship-Summer-2026)|
+|QR|[✅ ](https://careers.sig.com/job/9306/Quantitative-Research-Internship-Master-s-Summer-2026)|
+|QT|[✅ ](https://careers.sig.com/job/9377/Quantitative-Trader-Internship-Summer-2026)|
 
 
 ## Squarepoint
@@ -542,9 +542,9 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://tower-research.com/open-positions/?gh_jid=6790327)|
-|QR|[✅](https://tower-research.com/open-positions/?gh_jid=6626259)|
-|QT|[✅](https://tower-research.com/open-positions/?gh_jid=7062358)|
+|SWE|[✅ ](https://tower-research.com/open-positions/?gh_jid=6790327)|
+|QR|[✅ ](https://tower-research.com/open-positions/?gh_jid=6626259)|
+|QT|[✅ ](https://tower-research.com/open-positions/?gh_jid=7062358)|
 
 
 ## TransMarketGroup
@@ -556,8 +556,8 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://job-boards.greenhouse.io/transmarketgroup/jobs/4749906007?gh_jid=4749906007)|
-|QT|[✅](https://job-boards.greenhouse.io/transmarketgroup/jobs/4749915007?gh_jid=4749915007)|
+|SWE|[✅ ](https://job-boards.greenhouse.io/transmarketgroup/jobs/4749906007?gh_jid=4749906007)|
+|QT|[✅ ](https://job-boards.greenhouse.io/transmarketgroup/jobs/4749915007?gh_jid=4749915007)|
 
 
 ## TrexQuant Investments LP
@@ -593,7 +593,7 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|QR|[✅](https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship-2026-Summer/13257)|
+|QR|[✅ ](https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship-2026-Summer/13257)|
 
 
 ## Valkyrie Trading
@@ -629,8 +629,8 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://job-boards.greenhouse.io/virtu/jobs/7848570002)|
-|QT|[✅](https://job-boards.greenhouse.io/virtu/jobs/7848562002)|
+|SWE|[✅ ](https://job-boards.greenhouse.io/virtu/jobs/7848570002)|
+|QT|[✅ ](https://job-boards.greenhouse.io/virtu/jobs/7848562002)|
 
 
 ## Voleon
@@ -654,8 +654,8 @@ This repository is auto-updated by a GitHub action. The data are stored in the `
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://voloridge-investment-management.hiringthing.com/job/889648/research-software-engineer-intern-2026)|
-|QR|[✅](https://voloridge-investment-management.hiringthing.com/job/889639/quantitative-research-intern-2026)|
+|SWE|[✅ ](https://voloridge-investment-management.hiringthing.com/job/889648/research-software-engineer-intern-2026)|
+|QR|[✅ ](https://voloridge-investment-management.hiringthing.com/job/889639/quantitative-research-intern-2026)|
 
 
 ## Wolverine

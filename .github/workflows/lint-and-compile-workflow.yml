@@ -19,6 +19,23 @@ jobs:
           ocaml-compiler: 5.1.0
           cache-prefix: v1
           dune-cache: true
+        
+      - name: Cache OPAM dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.opam
+            _opam
+          key: ${{ runner.os }}-opam-${{ hashFiles('src/*.opam', 'src/opam.locked') }}
+          restore-keys: |
+            ${{ runner.os }}-opam-
+        
+      - name: Set up OPAM environment
+        run: opam init --bare --disable-sandboxing && eval $(opam env)
+        
+      - name: Install dependencies
+        working-directory: ./src
+        run: opam install . --deps-only
 
       - name: Generate the output file
         working-directory: ./src
