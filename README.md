@@ -3,7 +3,7 @@
 
 Feel free to submit a new job posting or suggest a change by submitting a pull request 🙏
 
-Are you a firm looking to reach quant interns? Let us know at <a href=\"mailto:nuft@u.northwestern.edu\">nuft@u.northwestern.edu</a> and we will take care of adding your positions.
+Are you a firm looking to reach quant interns? Let us know at [nuft@u.northwestern.edu](mailto:nuft@u.northwestern.edu) and we will take care of adding your positions.
 
 
 ## Using This Repository
@@ -47,6 +47,7 @@ This repository is auto-updated by a GitHub action. The data are stored in OCaml
 |-------|-------|
 |SWE|[✅](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7990895002)|
 |QR|[✅](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7985726002)|
+|BizOps (AI/LLM)|[✅](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8071545002)|
 
 
 ## AQR
@@ -321,6 +322,7 @@ This repository is auto-updated by a GitHub action. The data are stored in OCaml
 |SWE|[✅](https://www.janestreet.com/join-jane-street/position/8040547002/)|
 |QR|[✅](https://www.janestreet.com/join-jane-street/position/7979031002/)|
 |QT|[✅](https://www.janestreet.com/join-jane-street/position/8047137002/)|
+|Hardware|[✅ FPGA](https://www.janestreet.com/join-jane-street/position/8062455002/)|
 
 
 ## Jump Trading
@@ -407,6 +409,7 @@ This repository is auto-updated by a GitHub action. The data are stored in OCaml
 |SWE|[✅ Chicago](https://optiver.com/working-at-optiver/career-opportunities/7973726002/)&nbsp;&nbsp;&nbsp;&nbsp;[✅ Austin](https://optiver.com/working-at-optiver/career-opportunities/7973725002/)|
 |QR|[✅ Chicago](https://optiver.com/working-at-optiver/career-opportunities/8033071002/)&nbsp;&nbsp;&nbsp;&nbsp;[✅ Austin](https://optiver.com/working-at-optiver/career-opportunities/7967593002/)|
 |QT|[✅ Chicago](https://optiver.com/working-at-optiver/career-opportunities/7832160002/)|
+|Hardware|[✅ Chicago](https://optiver.com/working-at-optiver/career-opportunities/8033372002/)&nbsp;&nbsp;&nbsp;&nbsp;[✅ Austin](https://optiver.com/working-at-optiver/career-opportunities/8033390002/)|
 
 
 ## PDT Partners
@@ -502,7 +505,7 @@ This repository is auto-updated by a GitHub action. The data are stored in OCaml
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅](https://careers.sig.com/job/9571/Software-Engineering-Internship-Summer-2026)|
+|SWE|[✅ SWE](https://careers.sig.com/job/9571/Software-Engineering-Internship-Summer-2026)&nbsp;&nbsp;&nbsp;&nbsp;[✅ Quant Strategy Dev](https://careers.sig.com/job/9532/Quantitative-Strategy-Developer-Internship-Summer-2026)|
 |QR|[✅](https://careers.sig.com/job/9306/Quantitative-Research-Internship-Master-s-Summer-2026)|
 |QT|[✅](https://careers.sig.com/job/9377/Quantitative-Trader-Internship-Summer-2026)|
 
