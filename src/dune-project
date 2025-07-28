@@ -1,0 +1,26 @@
+(lang dune 3.18)
+
+(name internships)
+
+(generate_opam_files true)
+
+(source
+ (github northwesternfintech/2026QuantInternships))
+
+(authors "Andrew Li <andrewli@u.northwestern.edu>")
+
+(maintainers "Andrew Li <andrewli@u.northwestern.edu>")
+
+(license MIT)
+
+(documentation https://example.com)
+
+(package
+ (name internships)
+ (synopsis "Automation scripts to transform YAML files containing internship links into Markdown tables")
+ (description "idk i did this for fun")
+ (depends dune ocaml ocamlformat yaml ppx_deriving_yaml)
+ (tags
+  ("markdown" "yaml" your project)))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
