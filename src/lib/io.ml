@@ -4,8 +4,7 @@ let ls ~directory:(dir : string) ~extension:(ext : string) : string list =
   |> List.filter (fun fname ->
     let first_char_of_filename = String.get fname 0 in
     let is_not_dot_file = first_char_of_filename <> '.' in
-    is_not_dot_file
-  )
+    is_not_dot_file)
   |> List.filter (fun fname ->
     let first_char_of_extension = String.get ext 0 in
     match first_char_of_extension with
