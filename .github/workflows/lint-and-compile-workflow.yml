@@ -1,15 +1,23 @@
 name: "[ci] Lint and compile source code"
 
 on:
+  push:
+    branches:
+      - "main"
+    # paths:
+    #   - data/**
   pull_request:
     branches:
-      - "*"
+      - "main"
+    # paths:
+    #   - data/**
 
 jobs:
   compile:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v3
 
@@ -57,3 +65,28 @@ jobs:
             git commit -m "[bot] auto-update README.md"
             git push origin HEAD:${{ github.head_ref }}
           fi
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-readme-md
+          path: README.md
+          retention-days: 3
+
+      - name: Fetch artifact URL
+        id: artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ARTIFACT_ID=$(gh api repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts \
+            --jq '.artifacts[] | select(.name == "preview-readme-md") | .id')
+          echo "url=https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/$ARTIFACT_ID" >> $GITHUB_OUTPUT
+
+      - name: Comment with full artifact link
+        uses: peter-evans/create-or-update-comment@v4
+        if: github.event_name == 'pull_request'
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ✅ [Download preview-readme-md artifact](${{ steps.artifact.outputs.url }})
+
+
