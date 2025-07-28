@@ -1,7 +1,7 @@
 name: "Jane Street"
 website: "https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=new-york"
 locations: "NYC"
-notes: "Founded by ex-SIG people. Tends to be more school-agnostic than other firms. General perception of JS is that it has a very comfortable and nerdy culture. Specializes in ETF market making, and uses OCaml as their primary programming language. Also has big offices in London and Hong Kong."
+notes: "Founded by ex-SIG people. Tends to be more school-agnostic than other firms. General perception of JS is that it has a very comfortable and nerdy culture. Specializes in ETF market making, and uses OCaml as their primary programming language. Also has big offices in London and Hong Kong, and small offices in Singapore and Amsterdam."
 roles:
   - role_type: "SWE"
     links:
