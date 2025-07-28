@@ -1,5 +1,7 @@
 # Summer 2026 Quant Internships
 
+**This repository is auto-updated by a GitHub action. Please do not manually change this file.**
+
 Feel free to submit a new job posting or suggest a change by submitting a pull request 🙏
 
 **Updated and Maintained by the Northwestern Fintech Club.**
