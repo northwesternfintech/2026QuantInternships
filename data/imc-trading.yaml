@@ -12,3 +12,7 @@ roles:
   - role_type: "QT"
     links:
       - url: "https://www.imc.com/us/careers/jobs/4580757101/"
+  - role_type: "ML"
+    links:
+      - url: "https://www.imc.com/us/careers/jobs/4608584101"
+        label: "ML Research"
