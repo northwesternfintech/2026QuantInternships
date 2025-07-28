@@ -3,9 +3,6 @@ let title ~(year : string) = "# Summer " ^ year ^ " Quant Internships"
 let contribution_section () =
   {|
 ## Using This Repository
-
-**This repository is auto-updated by a GitHub action. Please do not manually change this file.**
-
 All data are stored in the `./data` directory. Please see the `README.md` in there for instructions on how to maintain the YAML files. The data are parsed via OCaml, and then into Markdown. The output format is customisable in the Markdown_writer module. On creating a PR, a GitHub bot will update the README automatically.
 
 |}
@@ -14,6 +11,8 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 let introduction_blurb () =
   Printf.sprintf
     {|%s
+
+**This repository is auto-updated by a GitHub action. Please do not manually change this file.**
 
 Feel free to submit a new job posting or suggest a change by submitting a pull request 🙏
 
