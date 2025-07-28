@@ -47,8 +47,4 @@ module Company = struct
   ;;
 end
 
-let create_link ?label (url : string) : link =
-  match label with
-  | Some l -> { label = Some l; url }
-  | None -> { label = None; url }
-;;
+let create_link ?label (url : string) : link = { label; url }
