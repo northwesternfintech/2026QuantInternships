@@ -31,7 +31,7 @@ HW = Hardware/FPGA Engineering
 | [AQR](https://careers.aqr.com/jobs/department/university-jobs#/)|Greenwich|||||||
 | [BAM](https://bamfunds.force.com/s/)||||||||
 | [Arrowstreet Capital](https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Arrowstreet)|Boston||||||Fully Systematic. Very High PnL per head.|
-| [Belvedere Trading](http://www.belvederetrading.com/jobs/)| Chicago|||||||
+| [Belvedere Trading](http://www.belvederetrading.com/jobs/)|Chicago; Boulder, Colorado|[✅](https://jobs.lever.co/belvederetrading/eddfd030-1b27-46db-9ef6-5b65e1e2484c)||[✅](https://jobs.lever.co/belvederetrading/ec52b73e-54b8-4f87-909d-a74cb288dc4d)||||
 | [Blackedge Capital](https://boards.greenhouse.io/blackedgecapital)| Chicago|||||||
 | [Bridgewater](https://www.bridgewater.com/working-at-bridgewater/job-openings)| Westport|[✅](https://job-boards.greenhouse.io/bridgewater89/jobs/7950099002)|[✅](https://job-boards.greenhouse.io/bridgewater89/jobs/7726966002)|||| Day Ralio's firm. Very unique culture and interviews. Very School Selective.|
 | [Campbell and Company](https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2de708e1-c847-43b1-bf0d-0bad30aca014&ccId=19000101_000001&type=MP&lang=en_US)| Baltimore, MD|||||| This small 60 employee multi-strat quant firm has an extremely collaborative culture.|
