@@ -45,7 +45,7 @@ HW = Hardware/FPGA Engineering
 | [Flow Traders](https://www.flowtraders.com/careers)|NYC|||||| Primary focus is on ETFs. Pay tends be lower than IMC and Optiver. One of the only publicly traded quant funds.|
 | [G-Research](https://www.gresearch.co.uk/join-us/graduates/)| London|||||| Also hires people out of the US. Very focused on research with a lot of people working on cutting-edge Machine Learning.|
 | [Geneva Trading](https://www.genevatrading.com/careers-open-positions/)| Chicago|||[✅](https://job-boards.greenhouse.io/genevatrading/jobs/4767553007)||||
-| [GSA Capital](https://www.gsacapital.com/?section=careers&gh_src=)| NYC, London|[✅](https://boards.greenhouse.io/embed/job_app?for=gsacapital&token=8016008002)|[✅](https://boards.greenhouse.io/embed/job_app?for=gsacapital&token=8016006002)||||
+| [GSA Capital](https://www.gsacapital.com/?section=careers&gh_src=)| NYC, London||[✅](https://boards.greenhouse.io/embed/job_app?for=gsacapital&token=8016006002)||||
 | [HAP Capital](https://jobs.lever.co/hap-capital)|NYC||||||Another options market maker. Less known than (IMC, Optiver, ...) but well known in the OMM circle.|
 | [Headlands Tech](https://www.headlandstech.com/careers/)| Chicago|||||| Founded by ex-Citadel people. Max Dama works here. Similarly to Ansatz, Aquatic, and Radix, a small firm that is willing to pay more than most competitors. Known to have a large focus on C++, both among QRs and SWEs.|
 | [Hudson River Trading](https://www.hudsonrivertrading.com/careers/)|NYC|||||| The Algo Dev role at HRT is essentially Quantitative Research. HRT's culture seems to be pretty similar to JS and pay is similar too. HRT has a bigger focus on ML with their dedicated HRT AI Labs. Known for recruiting UG QRs, and for very collegial culture.|
