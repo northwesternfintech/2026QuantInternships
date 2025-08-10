@@ -2,4 +2,8 @@ name: "GSA Capital"
 website: "https://www.gsacapital.com/?section=careers&gh_src="
 locations: "NYC"
 notes: ""
-roles: []
+roles:
+  - role_type: "QR"
+    links:
+      - url: "https://boards.greenhouse.io/embed/job_app?for=gsacapital&token=8016006002"
+
