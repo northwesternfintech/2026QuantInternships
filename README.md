@@ -30,7 +30,7 @@ HW = Hardware/FPGA Engineering
 | [Aquatic](https://boards.greenhouse.io/aquaticcapitalmanagement)|Chicago|[✅](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7990895002)|[✅](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7985726002)||||Very Small, Citadel Spinoff.|
 | [AQR](https://careers.aqr.com/jobs/department/university-jobs#/)|Greenwich|||||||
 | [BAM](https://bamfunds.force.com/s/)||||||||
-| [Arrowstreet Capital](https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Arrowstreet)|Boston||||||Fully Systematic. Very High PnL per head.|
+| [Arrowstreet Capital](https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Arrowstreet)|Boston|[✅](https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Boston/Quantitative-Developer-Intern--Summer-2026_R1338)|[✅](https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Boston/Quantitative-Researcher-Intern--Summer-2026_R1340)||||Fully Systematic. Very High PnL per head.|
 | [Belvedere Trading](http://www.belvederetrading.com/jobs/)|Chicago; Boulder, Colorado|[✅](https://jobs.lever.co/belvederetrading/eddfd030-1b27-46db-9ef6-5b65e1e2484c)||[✅](https://jobs.lever.co/belvederetrading/ec52b73e-54b8-4f87-909d-a74cb288dc4d)||||
 | [Blackedge Capital](https://boards.greenhouse.io/blackedgecapital)| Chicago|||||||
 | [Bridgewater](https://www.bridgewater.com/working-at-bridgewater/job-openings)| Westport|[✅](https://job-boards.greenhouse.io/bridgewater89/jobs/7950099002)|[✅](https://job-boards.greenhouse.io/bridgewater89/jobs/7726966002)|||| Day Ralio's firm. Very unique culture and interviews. Very School Selective.|
