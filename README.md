@@ -139,8 +139,8 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 |QT|[✅ ](https://grnh.se/28t263745us)|
 
 
-## Citadel Securities
-**Website**: [Citadel Securities](https://www.citadelsecurities.com/careers/students/internships/)
+## Citadel / Citadel Securities
+**Website**: [Citadel / Citadel Securities](https://www.citadelsecurities.com/careers/students/internships/)
 
 **Locations**: Chicago, NYC
 
@@ -153,8 +153,8 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 |QT|[✅ ](https://www.citadelsecurities.com/careers/details/quantitative-trading-intern-us/)|
 
 
-## Citadel
-**Website**: [Citadel](https://www.citadel.com/careers/open-opportunities/students/internships/)
+## 
+**Website**: [](https://www.citadel.com/careers/open-opportunities/students/internships/)
 
 **Locations**: Chicago, NYC
 
@@ -301,6 +301,8 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 |-------|-------|
 |SWE|[✅ ](https://www.hudsonrivertrading.com/hrt-job/software-engineering-internship-summer-2026-2/)|
 |QR|[✅ Algo Dev](https://www.hudsonrivertrading.com/hrt-job/algorithm-development-quant-research-internship-summer-2026-2/)|
+|QT|[✅ ](https://www.hudsonrivertrading.com/hrt-job/algorithm-trader-quantitative-trader-internship-summer-2026/)|
+|Sophomore|[✅ ](https://www.hudsonrivertrading.com/hrt-job/sophomore-internship-summer-2026/)|
 
 
 ## IMC Trading
