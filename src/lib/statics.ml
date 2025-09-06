@@ -1,4 +1,4 @@
-let title ~(year : string) = "# Summer " ^ year ^ " Quant Internships"
+let title ~year = "# Summer " ^ year ^ " Quant Internships"
 
 let contribution_section () =
   {|

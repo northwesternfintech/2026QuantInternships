@@ -47,4 +47,4 @@ module Company = struct
   ;;
 end
 
-let create_link ?label (url : string) : link = { label; url }
+let create_link ?label url : link = { label; url }

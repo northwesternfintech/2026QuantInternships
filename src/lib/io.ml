@@ -1,4 +1,4 @@
-let ls ~directory:(dir : string) ~extension:(ext : string) : string list =
+let ls ~directory:dir ~extension:ext : string list =
   Sys.readdir dir
   |> Array.to_list
   |> List.filter (fun fname ->
@@ -14,7 +14,7 @@ let ls ~directory:(dir : string) ~extension:(ext : string) : string list =
   |> List.map (Filename.concat dir)
 ;;
 
-let read_file (path : string) : string =
+let read_file path : string =
   let channel = open_in path in
   let len = in_channel_length channel in
   let content = really_input_string channel len in
@@ -22,7 +22,7 @@ let read_file (path : string) : string =
   content
 ;;
 
-let dump_entire_markdown_file (companies : Types.Company.t list) : string =
+let dump_entire_markdown_file (companies : Types.Company.t list) =
   Statics.introduction_blurb ()
   ^ (companies |> List.map Markdown_writer.T.dumps |> String.concat "\n\n")
 ;;
