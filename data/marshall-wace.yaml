@@ -1,0 +1,9 @@
+name: "Marshall Wace"
+website: "https://www.mwam.com/join-us/internships/"
+locations: "NYC"
+notes: ""
+roles:
+  - role_type: "SWE"
+    links:
+      - url: "https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8062751002"
+        label: "Tech"

@@ -1,0 +1,4 @@
+(executable
+ (public_name internships)
+ (name main)
+ (libraries internships))

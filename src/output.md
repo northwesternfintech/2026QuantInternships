@@ -71,8 +71,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅ ](https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Boston/Quantitative-Developer-Intern--Summer-2026_R1338)|
-|QR|[✅ ](https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Boston/Quantitative-Researcher-Intern--Summer-2026_R1340)|
+
 
 
 ## Belvedere Trading
@@ -84,8 +83,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅ ](https://jobs.lever.co/belvederetrading/eddfd030-1b27-46db-9ef6-5b65e1e2484c)|
-|QT|[✅ ](https://jobs.lever.co/belvederetrading/ec52b73e-54b8-4f87-909d-a74cb288dc4d)|
+
 
 
 ## Blackedge Capital
@@ -97,8 +95,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅ ](https://job-boards.greenhouse.io/blackedgecapital/jobs/4596128005)|
-|QT|[✅ ](https://job-boards.greenhouse.io/blackedgecapital/jobs/4590418005)|
+
 
 
 ## Bridgewater
@@ -135,12 +132,11 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅ ](https://grnh.se/2f36ab9q5us)|
-|QT|[✅ ](https://grnh.se/28t263745us)|
 
 
-## Citadel / Citadel Securities
-**Website**: [Citadel / Citadel Securities](https://www.citadelsecurities.com/careers/students/internships/)
+
+## Citadel Securities
+**Website**: [Citadel Securities](https://www.citadelsecurities.com/careers/students/internships/)
 
 **Locations**: Chicago, NYC
 
@@ -148,13 +144,11 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅ ](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/)|
-|QR|[✅ ](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-us/)|
-|QT|[✅ ](https://www.citadelsecurities.com/careers/details/quantitative-trading-intern-us/)|
 
 
-## 
-**Website**: [](https://www.citadel.com/careers/open-opportunities/students/internships/)
+
+## Citadel
+**Website**: [Citadel](https://www.citadel.com/careers/open-opportunities/students/internships/)
 
 **Locations**: Chicago, NYC
 
@@ -227,7 +221,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|QT|[✅ ](https://www.flowtraders.com/careers/job-description/7166435)|
+
 
 
 ## G-Research
@@ -263,7 +257,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|QR|[✅ ](https://boards.greenhouse.io/embed/job_app?for=gsacapital&token=8016006002)|
+
 
 
 ## HAP Capital
@@ -299,10 +293,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅ ](https://www.hudsonrivertrading.com/hrt-job/software-engineering-internship-summer-2026-2/)|
-|QR|[✅ Algo Dev](https://www.hudsonrivertrading.com/hrt-job/algorithm-development-quant-research-internship-summer-2026-2/)|
-|QT|[✅ ](https://www.hudsonrivertrading.com/hrt-job/algorithm-trader-quantitative-trader-internship-summer-2026/)|
-|Sophomore|[✅ ](https://www.hudsonrivertrading.com/hrt-job/sophomore-internship-summer-2026/)|
+
 
 
 ## IMC Trading
@@ -317,7 +308,6 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 |SWE|[✅ ](https://www.imc.com/us/careers/jobs/4580810101/)|
 |QR|[✅ ](https://www.imc.com/us/careers/jobs/4580808101/)|
 |QT|[✅ ](https://www.imc.com/us/careers/jobs/4580757101/)|
-|ML|[✅ ML Research](https://www.imc.com/us/careers/jobs/4608584101)|
 
 
 ## Jane Street
@@ -325,7 +315,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 **Locations**: NYC
 
-**Notes**: Founded by ex-SIG people. Tends to be more school-agnostic than other firms. General perception of JS is that it has a very comfortable and nerdy culture. Specializes in ETF market making, and uses OCaml as their primary programming language. Also has big offices in London and Hong Kong, and small offices in Singapore and Amsterdam.
+**Notes**: Founded by ex-SIG people. Tends to be more school-agnostic than other firms. General perception of JS is that it has a very comfortable and nerdy culture. Specializes in ETF market making, and uses OCaml as their primary programming language. Also has big offices in London and Hong Kong.
 
 |Role|Links|
 |-------|-------|
@@ -344,11 +334,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅ ](https://www.jumptrading.com/careers/7124769/)|
-|QR|[✅ ](https://www.jumptrading.com/careers/7026718/)|
-|QT|[✅ ](https://www.jumptrading.com/careers/6900970/)|
-|Hardware|[✅ FPGA](https://www.jumptrading.com/careers/7124905/)|
-|Data|[✅ ](https://www.jumptrading.com/careers/7125399/)|
+
 
 
 ## Mako Trading
@@ -396,8 +382,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅ ](https://campusjobs.mlp.com/careers?pid=755944533187)|
-|QR|[✅ ](https://campusjobs.mlp.com/careers?pid=755944544682)|
+
 
 
 ## Old Mission
@@ -436,7 +421,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|SWE|[✅ ](https://job-boards.greenhouse.io/pdtpartners/jobs/7073180)|
+
 
 
 ## Peak6
@@ -534,7 +519,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 |Role|Links|
 |-------|-------|
-|QR|[✅ ](https://www.squarepoint-capital.com/open-opportunities?id=243853)|
+
 
 
 ## TGS

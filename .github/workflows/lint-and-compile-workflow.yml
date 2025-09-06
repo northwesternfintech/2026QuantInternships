@@ -1,0 +1,93 @@
+name: "[ci] Lint and compile source code"
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - data/**
+  pull_request:
+    branches:
+      - "main"
+    paths:
+      - data/**
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up OCaml
+        uses: ocaml/setup-ocaml@v3
+        with:
+          ocaml-compiler: 5.1.0
+          cache-prefix: v1
+          dune-cache: true
+        
+      - name: Cache OPAM dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.opam
+            _opam
+          key: ${{ runner.os }}-opam-${{ hashFiles('src/*.opam', 'src/opam.locked') }}
+          restore-keys: |
+            ${{ runner.os }}-opam-
+        
+      - name: Set up OPAM environment
+        run: opam init --bare --disable-sandboxing && eval $(opam env)
+        
+      - name: Install dependencies
+        working-directory: ./src
+        run: opam install . --deps-only
+
+      - name: Generate the output file
+        working-directory: ./src
+        run: eval $(opam env) && dune exec internships > ../README.md
+        
+      - name: Commit and push changes to git
+        run: |
+          git fetch
+          git checkout ${{ github.head_ref }}
+          git pull
+          git add -f README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+
+            git commit -m "[bot] auto-update README.md"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
+
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-readme-md
+          path: README.md
+          retention-days: 3
+
+      - name: Fetch artifact URL
+        id: artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ARTIFACT_ID=$(gh api repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts \
+            --jq '.artifacts[] | select(.name == "preview-readme-md") | .id')
+          echo "url=https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/$ARTIFACT_ID" >> $GITHUB_OUTPUT
+
+      - name: Comment with full artifact link
+        uses: peter-evans/create-or-update-comment@v4
+        if: github.event_name == 'pull_request'
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ✅ [Download preview-readme-md artifact](${{ steps.artifact.outputs.url }})
+
+
