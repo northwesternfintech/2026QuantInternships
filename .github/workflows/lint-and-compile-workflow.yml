@@ -50,7 +50,6 @@ jobs:
         run: eval $(opam env) && dune exec internships > ../README.md
         
       - name: Commit and push changes to git
-        if: github.event_name == 'push'
         run: |
           git fetch
           git checkout ${{ github.head_ref }}
