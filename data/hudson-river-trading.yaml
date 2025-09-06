@@ -10,3 +10,9 @@ roles:
     links:
       - url: "https://www.hudsonrivertrading.com/hrt-job/algorithm-development-quant-research-internship-summer-2026-2/"
         label: "Algo Dev"
+  - role_type: "QT"
+    links:
+      - url: "https://www.hudsonrivertrading.com/hrt-job/algorithm-trader-quantitative-trader-internship-summer-2026/"
+  - role_type: "Sophomore"
+    links:
+      - url: "https://www.hudsonrivertrading.com/hrt-job/sophomore-internship-summer-2026/"
