@@ -63,7 +63,7 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 
 
 ## Arrowstreet Capital
-**Website**: [Arrowstreet Capital](https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Arrowstreet)
+**Website**: [Arrowstreet Capital](https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers)
 
 **Locations**: Boston
 
