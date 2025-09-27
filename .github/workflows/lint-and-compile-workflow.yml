@@ -6,11 +6,13 @@ on:
       - "main"
     paths:
       - data/**
+      - src/lib/statics.ml
   pull_request:
     branches:
       - "main"
     paths:
       - data/**
+      - src/lib/statics.ml
 
 jobs:
   compile:
