@@ -654,13 +654,13 @@ All data are stored in the `./data` directory. Please see the `README.md` in the
 ## Voleon
 **Website**: [Voleon](https://voleon.com/jobs/)
 
-**Locations**: Berkeley
+**Locations**: Berkeley, CA
 
 **Notes**: Specializes in Machine Learning and recruits college students for SWE roles but primarily recruits PhD students for research roles.
 
 |Role|Links|
 |-------|-------|
-
+|SWE|[✅ ](https://jobs.lever.co/voleon/100b2cb6-f9cc-42c3-add9-db143a76f0f0)|
 
 
 ## Voloridge
